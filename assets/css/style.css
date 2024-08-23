@@ -4,6 +4,10 @@
 html {
   font-size: 62.5%;
 }
+:root {
+  --font-heading: "Sen", sans-serif;
+  --button-color: rgba(255, 185, 0, 1);
+}
 body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
@@ -30,11 +34,15 @@ a {
   border-radius: 24.5px;
   background-color: black;
 }
+.btn:hover {
+  opacity: 0.8;
+}
 /* =========header========== */
 .header {
   background: rgba(255, 252, 244, 1);
   position: sticky;
   top: -28px;
+  z-index: 1;
 }
 .header .body {
   display: flex;
@@ -76,4 +84,146 @@ a {
 }
 .body .nav {
   margin-right: 49px;
+}
+/* ==========hero========= */
+.hero {
+  padding-top: 56px 0px 65px;
+  background-color: rgba(255, 252, 244, 1);
+}
+.hero .body {
+  display: flex;
+}
+/* ==========left========== */
+.hero .media-block {
+  width: 48%;
+}
+
+.hero .body .img {
+  width: 470px;
+  height: 685px;
+  object-fit: cover;
+  border-radius: 20px 0px 0px 0px;
+}
+.hero .media-block {
+  position: relative;
+}
+.hero .hero-summary {
+  padding: 24px;
+  position: absolute;
+  bottom: 48px;
+  right: 0;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  width: 270px;
+  height: 244px;
+  background: rgba(255, 255, 255, 1);
+}
+.hero-summary .item {
+  display: flex;
+  align-items: center;
+}
+.hero-summary .info {
+  margin-left: 16px;
+}
+.hero-summary .item + .item {
+  margin-top: 22px;
+}
+.hero-summary .label {
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(95, 91, 83, 1);
+}
+.hero-summary .title {
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(23, 17, 0, 1);
+}
+/* ========right======= */
+.hero .content-block {
+  width: 52%;
+  padding-left: 130px;
+  padding-top: 64px;
+}
+.hero .f1 {
+  font-family: Sen;
+  font-size: 5.8rem;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.hero .f3 {
+  display: flex;
+  margin-top: 38px;
+}
+.hero .text-hero {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(95, 91, 83, 1);
+}
+.hero .f2 {
+  margin-top: 22px;
+}
+.hero .btn-hero {
+  border-radius: 32px;
+  background: var(--button-color);
+  min-width: 180px;
+  line-height: 64px;
+}
+.hero .Watch {
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  margin-left: 28px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Watch .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 50px;
+}
+.Watch .bb {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 14px;
+}
+.hero .f4 {
+  margin-top: 48px;
+}
+.hero .aa {
+  margin-right: 15px;
+  color: black;
+  font-family: Sen;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  margin-right: 15px;
+}
+.hero .f5 {
+  display: flex;
+  margin-top: 8px;
+}
+.hero .cc {
+  margin-left: 28px;
 }
