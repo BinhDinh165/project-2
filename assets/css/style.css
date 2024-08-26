@@ -227,3 +227,145 @@ a {
 .hero .cc {
   margin-left: 28px;
 }
+/* ========popular======= */
+.popular {
+  margin-top: 100px;
+}
+.popular .popular-h2 {
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(23, 17, 0, 1);
+}
+.popular .text-popular {
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 12px;
+}
+.popular .popular-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular .info-left {
+  width: 458px;
+}
+.popular .popular-img1 {
+  width: 40px;
+  height: 40px;
+  border: solid rgba(255, 185, 0, 1);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.popular .popular-img2 {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 185, 0, 1);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.popular .icon-right {
+  display: flex;
+}
+.popular .popular-img1:hover {
+  opacity: 0.7;
+}
+.popular .popular-img2:hover {
+  opacity: 0.7;
+}
+/* =========popular-bottom======= */
+.popular-bottom {
+  display: flex;
+  margin-top: 55px;
+}
+.popular-bottom .popular-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.popular-bottom .rate-img {
+  margin-left: 119px;
+}
+.popular-bottom h3 {
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgba(23, 17, 0, 1);
+}
+.popular .popular-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popular-bottom .popular-bottom-left {
+  width: 370px;
+  height: 466px;
+  border-radius: 16px;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+.popular p {
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(95, 91, 83, 1);
+  margin-top: 6px;
+}
+.popular .cost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+.popular .cost p {
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgba(23, 17, 0, 1);
+}
+.popular-bottom .popular-content {
+  width: 326px;
+  height: 150px;
+  margin: 16px 22px 22px;
+}
+.popular .rate {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(254, 163, 27, 1);
+  margin-bottom: 5px;
+}
+.popular .rate-img {
+  margin-right: 5px;
+}
+.popular-bottom .ppl {
+  background: rgba(255, 185, 0, 1);
+  border: transparent;
+}
+.popular-bottom .popular-bottom-mid {
+  margin-left: 30px;
+  border: 1px solid rgba(226, 223, 218, 1);
+  border-radius: 12px;
+}
+.popular-bottom .popular-bottom-right {
+  margin-left: 30px;
+  border: 1px solid rgba(226, 223, 218, 1);
+  border-radius: 12px;
+}
